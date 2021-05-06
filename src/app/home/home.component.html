@@ -1,0 +1,44 @@
+
+<div
+  class="bg-image"
+  style="
+    background-image: url('https://i.pinimg.com/originals/db/66/35/db66350c2fd97732e59e1ea8176ea846.png');
+    height: 50vh;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 10px #150e14, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    "
+><br><h1>Faça sua própria lista dos melhores jogos que marcaram sua geração e compartilhe com seus amigos!!!</h1></div>
+<table class="table table-striped" *ngIf="carregarLoading; else carregando">
+    <thead style="color: white;">
+      <tr>
+        <th scope="col">Game</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Nota</th>
+        <th scope="col">Best List</th>
+        <th scope="col">Na dúvida...</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let p of produtos" style="color: white;">
+        <td><img src={{p.nome}} alt="Game"></td>
+        <th scope="row">{{p.id}}</th>
+        <td>{{p.preco}}</td>
+        <td><button type="button" class="btn btn-success" (click)="editar(p.id)" >Editar</button></td>
+        <td><button type="button" class="btn btn-danger" (click)="excluirItem(p.id)" >...remove</button></td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <ng-template #carregando >
+    <div id="preloader">
+        <div class="inner">
+            <div class="bolas">
+                <div></div>
+                <div></div>
+                <div></div>                    
+            </div>
+        </div>
+    </div>
+</ng-template>

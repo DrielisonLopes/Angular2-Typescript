@@ -1,0 +1,19 @@
+
+<div>
+    <label for="id" class="form-label" style="color: white;">Corrigir o nome:</label>
+    <input class="form-control" name="id" id="id" [(ngModel)]="produto.id">
+
+    <label for="preco" class="form-label" style="color: white;">Alterar a nota:</label>
+    <input class="form-control" name="preco" id="preco" [(ngModel)]="produto.preco">
+
+    <button type="button" style="margin-top: 2rem;" class="btn btn-success" (click)="adicionar()">{{textoBotao}}</button>
+</div>
+<div>
+    
+    <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/134/427/products/109th1-3f0bbfbc302e4ae93c15658905109771-640-0.jpg" 
+    class="img-fluid"
+    alt="Responsive image"
+    style="width: 100%;">
+</div>
+
+

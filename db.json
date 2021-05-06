@@ -1,0 +1,49 @@
+{
+  "produtos": [
+    {
+      "id": "Metal Gear Solid",
+      "nome": "https://m.media-amazon.com/images/M/MV5BNDQ2ZDljNDItZmNlMi00ZmMzLTlhNGMtMmE5ZTZkMmRmYzdiXkEyXkFqcGdeQXVyMTA3NjAwMDc4._V1_UY98_CR1,0,67,98_AL_.jpg",
+      "preco": 10
+    },
+    {
+      "id": "The Witcher III",
+      "nome": "https://m.media-amazon.com/images/M/MV5BYjY3ODFmNWUtNjhjNC00NTExLWIxYmEtYmQ0YTk5NjkzYTUwXkEyXkFqcGdeQXVyNzEyNjcwNTk@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "preco": 10    
+    },
+    {
+      "id": "Gog of War 4",
+      "nome": "https://m.media-amazon.com/images/M/MV5BMmVjMzkyYWMtNDNhNi00ZWI3LTgxNGUtODRkMWYxNjZmNDI5XkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "preco": 10
+    },
+    {
+      "id": "Half Life 2",
+      "nome": "https://m.media-amazon.com/images/M/MV5BMTJkNzZjYTgtYTZjZC00ZmI2LWFlMzctMTAxODFjMWM0MDBjXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_UY98_CR2,0,67,98_AL_.jpg",
+      "preco": 10
+    },
+    {
+      "id": "Legend of Zelda",
+      "nome": "https://m.media-amazon.com/images/M/MV5BZjc3MmMzNGItYmEzYy00MWFhLWI0NDQtMWE3Y2Q1NjE1OWRlXkEyXkFqcGdeQXVyNzcyMjAwNTE@._V1_UY98_CR1,0,67,98_AL_.jpg",
+      "preco": 10
+    },
+    {
+      "id": "Shadow of Colossus",
+      "nome": "https://m.media-amazon.com/images/M/MV5BNjU2NWMxM2UtN2JlMC00MGI1LWE4MDctNzE0NTE3YTRlMzZjXkEyXkFqcGdeQXVyMTA3NjAwMDc4._V1_UY98_CR8,0,67,98_AL_.jpg",
+      "preco": 10
+    },
+    {
+      "id": "Super Mario",
+      "nome": "https://m.media-amazon.com/images/M/MV5BNjY2NDFmMTctMzAyOC00ZTAwLWE2OGItMTU3NDJiM2MyNzAwXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_UY98_CR33,0,67,98_AL_.jpg",
+      "preco": 10
+    },
+    {
+      "id": "Uncharted 2",
+      "nome": "https://m.media-amazon.com/images/M/MV5BZDk4ZGQ1NTUtZTYwYS00YTMwLWI1OTYtNTNkZWRmNzljMjU3XkEyXkFqcGdeQXVyMjM5NzU3OTM@._V1_UY98_CR5,0,67,98_AL_.jpg",
+      "preco": 10
+    },
+    {
+      "id": "MGS 3",
+      "nome": "https://m.media-amazon.com/images/M/MV5BZDc1OGUxMzItNWIyYi00ZGExLTllZTItNGFmNWRmMDUyOGU5XkEyXkFqcGdeQXVyODg1MTQ2MDg@._V1_UY98_CR3,0,67,98_AL_.jpg",
+      "preco": 10
+    }
+  ]
+}
